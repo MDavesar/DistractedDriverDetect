@@ -3,11 +3,17 @@
 
 ->This repository contains a machine learning model for detecting distracted drivers. 
 
-->The model utilizes various algorithms, including Logistic Regression, Linear Regression, Support Vector Machine (SVM), XGBoost, and Convolutional Neural Network (CNN),
-to classify drivers based on their level of distraction.
+->The model utilizes various transfer learning techniques to to maximize the accuracy.
 
 ->Evaluate the model's performance using metrics such as accuracy, precision, recall, and F1 score. Visualize results and compare performance across different algorithms.
 
 ->[Link to dataset](https://www.kaggle.com/c/state-farm-distracted-driver-detection/data)
 
-->Add details
+->The models used:
+VGG 19
+ResNet105
+InceptionResNetV2
+MobileNetv2
+DenseNet201
+
+-> The highest accuracy was acheived in DenseNet201 model.
